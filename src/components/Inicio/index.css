@@ -1,0 +1,27 @@
+div.Rectangle {
+  width: 600px;
+  height: 300px;
+  margin-left: 0;
+  background-color: #7bcccc;
+  border: 45px solid #7bcccc;
+  border-radius: 0px 30px 30px 0px;
+}
+div.AdaWendy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #7bcccc;
+  margin-left: 20%;
+}
+
+p {
+  font-size: 10px;
+  color: white;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 30px;
+}
+.imageAdaWendy {
+  width: 100px;
+}
