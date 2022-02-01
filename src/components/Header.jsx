@@ -16,7 +16,7 @@ function Header() {
               key={i}
               style={function isActiveStyler({ isActive }) {
                 return {
-                  color: isActive ? "red" : "#000",
+                  color: isActive ? "#7BCCCC" : "#000",
                   textDecoration: isActive ? "underline" : "none",
                 };
               }}

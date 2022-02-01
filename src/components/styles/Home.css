@@ -1,27 +1,61 @@
 div.Rectangle {
-  width: 600px;
+  margin: 0 0 0 0;
+}
+div.AdaWendy {
+  width: 400px;
   height: 300px;
-  margin-left: 0;
   background-color: #7bcccc;
   border: 45px solid #7bcccc;
   border-radius: 0px 30px 30px 0px;
-}
-div.AdaWendy {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background-color: #7bcccc;
-  margin-left: 20%;
+}
+div.Practicality {
+  width: 400px;
+  height: 300px;
+  border: 45px solid white;
+  border-radius: 30px 0px 0px 30px;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-right: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 p {
-  font-size: 10px;
+  font-size: 15px;
   color: white;
   margin-bottom: 0;
+  font-weight: 500;
 }
 h1 {
-  font-size: 30px;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.imageAdaWendy {
-  width: 100px;
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  color: #7bcccc;
+}
+p.Practicality {
+  color: black;
+  font-size: 15px;
+  margin-top: 0;
+  font-weight: 500;
+}
+ul {
+  margin-top: 20px;
+  margin-left: 0;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+li {
+  margin: 0 10px 10px 0;
 }

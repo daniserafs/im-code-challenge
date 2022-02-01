@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import SlideCard from "./components/SlideCard";
 
 ReactDOM.render(
   <React.StrictMode>
