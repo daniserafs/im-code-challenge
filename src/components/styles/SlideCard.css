@@ -3,3 +3,17 @@ div.SlideCard {
   flex-direction: column;
   align-items: center;
 }
+div.Carousel {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  margin-bottom: 50px;
+  box-shadow: 0px 15px 30px 0px #151515;
+  border-style: solid;
+  border-width: 3px;
+  transition-duration: 0.5s;
+  transition-property: border-color;
+}

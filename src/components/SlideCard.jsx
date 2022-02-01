@@ -14,7 +14,7 @@ function SlideCard(props) {
     <>
       <div className="SlideCard">
         <h1>
-          Varias funcoes em <br></br> um unico lugar.
+          Várias funções em <br></br> um único lugar.
         </h1>
       </div>
       <Carousel
@@ -45,20 +45,9 @@ function Carousel(props) {
     props.updateSlide({ currentIndex, lastIndex, direction: -1 });
   }
   return (
-    <div className={"carousel carousel--" + props.text[props.currentIndex][0]}>
-      <div
-        onClick={() => showPrevious(props.currentIndex)}
-        className="controls controls--back"
-      >
-        <span></span>
-      </div>
-
-      <div
-        onClick={() => showNext(props.currentIndex)}
-        className="controls controls --next"
-      >
-        <span></span>
-      </div>
+    <div className={"Carousel" + props.text[props.currentIndex][0]}>
+      <div onClick={() => showPrevious(props.currentIndex)}></div>
+      <div onClick={() => showNext(props.currentIndex)}></div>
     </div>
   );
 }
